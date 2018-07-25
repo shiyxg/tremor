@@ -45,7 +45,7 @@ events = Event(chn=chn).event
 event_sample = []
 num = 0
 for i in range(len(events)):
-# for i in [84,85,86,87,88,89,90,91,92,93,94]:
+    # for i in [84,85,86,87,88,89,90,91,92,93,94]:
     for j in range(gap):
         start_e = events[i]
         shift = -1 * (duration/gap * (j + random.random()))
